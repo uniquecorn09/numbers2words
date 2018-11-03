@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-family: "Dosis", sans-serif;
+}
+.header {
+  background-color: #22333d;
+  color: #eaf2df;
+  text-align: center;
+  font-size: 40px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  padding: 50px;
+  border: 5px solid #22333d;
+}
+.footer {
+  background-color: #22333d;
+}
+button {
+  width: max-content;
+  align-self: center;
+  font-size: 24px;
+  background-color: #22333d;
+  color: #eaf2df;
+  margin: 10px;
+  font-family: "Dosis", sans-serif;
+}
+input {
+  font-size: 24px;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  width: 110px;
+  margin: 10px;
+}
