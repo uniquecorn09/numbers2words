@@ -10,10 +10,18 @@ body {
   text-align: center;
   font-size: 40px;
 }
-form {
+.form {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+#result {
+  font-weight: 900;
+  height: 100px;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 50px;
+  color: #97bdca;
 }
 .content-wrapper {
   display: flex;
@@ -40,4 +48,5 @@ input {
   text-align: center;
   width: 110px;
   margin: 10px;
+  padding-left: 12px;
 }

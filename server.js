@@ -10,7 +10,6 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(express.static("./client"));
-app.use('/desktop', express.static('desktop'));
  api.init(app);
 
 app.listen(process.env.PORT, () =>

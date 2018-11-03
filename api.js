@@ -9,9 +9,8 @@ const invokeConverter = (req, res) => {
   let number2Convert = req.body.number;
 
   let response = Converter.convert(number2Convert);
-
-  
-  res.send(response);
+  res.header("Content-Type", "application/json");
+  res.send(JSON.stringify({response:response}));
   };
 
 
