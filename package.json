@@ -38,10 +38,6 @@
       ]
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.ibm.com:OHP/Avatar-SelfCheckin.git"
-  },
   "engines": {
     "node": ">=6.7.0"
   },
